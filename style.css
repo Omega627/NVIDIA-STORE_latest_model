@@ -1,0 +1,1809 @@
+/* Base styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+body {
+    margin: 0;
+    background-color: #0b0f14;
+    color: #e5e7eb;
+     background-image: url("");
+      overflow-x: hidden;
+     
+
+
+
+      
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+/*===== NAVIGATION ===== */
+
+nav {
+
+    padding: 20px 40px;
+    font-size:25px;
+    color: none;
+    text-decoration: none;
+    font-weight: 500px;
+    margin-left: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: fit-content;
+   
+
+  
+}
+
+nav  a {
+
+    position: relative;
+    left:510px;
+    padding-top: 30px;
+  
+    position: relative;
+    
+
+    color: #e5e7eb;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: 600;
+  
+
+   
+}
+
+nav a button {
+
+    position: relative;
+    bottom:8px;
+
+}
+
+nav img {
+
+    max-width: 90px;
+    
+    padding:5px 5px;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    left:10px;
+   
+}
+
+nav h2 {
+
+    max-width:300px;
+    font-size:30px;
+    position:relative;
+    top:50px;
+    right:140px;
+    color:#76b900;
+}
+
+
+
+
+ .btnLogin-popup{
+
+    width: 130px;
+    height: 50px;
+    background: transparent ;
+    border: 2px solid greenyellow;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size:1.1em;
+    color: greenyellow;
+    font-weight:500;
+    margin-left:0px;
+    
+
+
+
+}
+
+/* side bar */
+
+.wish-input {
+
+    position: relative;
+    left:485px;
+    max-width: 130px;
+    top:25px;
+    border-radius:8px;
+}
+
+.wish-input button {
+
+     
+    width:40px;
+    height:35px;
+       background-color: transparent;
+           border-radius:8px;
+           border-color: #03e116;
+           position: relative;
+         
+}
+
+.wish-input span {
+
+    
+    position:relative;
+    top:5px;
+    font-size:15px;
+      font-weight: bold;
+      color:#03e116;
+      position: relative;
+      right:15px;
+
+}
+
+.wish-input svg {
+
+     height:100%;
+    width:100%;
+    color:#26ff00;
+    
+
+}
+
+.wish-input button:hover {
+
+    transform:scale(1.05);
+    border:#2bff00;
+}
+
+
+
+.cart-input {
+
+  
+     position: relative;
+    left:620px;
+    max-width: 130px;
+    top:8px;
+    border-radius:8px;
+  
+  
+    
+
+
+}
+
+.cart-input button {
+
+  
+    width:40px;
+    height:35px;
+       background-color: transparent;
+           border-radius:8px;
+           border-color: #03e116;
+}
+
+.number-check {
+
+    background-color: rgb(6, 138, 11);
+    border-radius: 20px;
+    
+    max-width: 18px;
+    max-height:20px;
+    font-size: 12px;
+   padding-left: 5px;
+   position: relative;
+   left:40px;
+   top:10px;
+}
+
+
+
+.cart-input span {
+
+    position:relative;
+    top:5px;
+    font-size:15px;
+      font-weight: bold;
+      color:#26ff00;
+   
+}
+
+.cart-input svg {
+
+    height:100%;
+    width:100%;
+    color:#26ff00;
+}
+
+.cart-input button:hover {
+
+    transform:scale(1.05);
+    border:#2bff00;
+}
+
+
+
+nav a:hover {
+    color:#76b900;
+   
+}
+
+
+/* side bar2 */
+
+
+.account-input {
+
+    
+    position: relative;
+    left:465px;
+    max-width: 40px;
+    width: 100%;
+    top:25px;
+    border-radius:8px;
+  
+}
+
+.account-input button {
+
+     
+    width:40px;
+    height:35px;
+       background-color: transparent;
+           border-radius:8px;
+           border-color: #03e116;
+           position: relative;
+         
+}
+
+.account-input span {
+
+    
+    position:relative;
+    top:5px;
+    font-size:15px;
+      font-weight: bold;
+      color:#00b140;
+      position: relative;
+      right:25px;
+      max-width: 300px;
+      width: 100%;
+      
+
+}
+
+.account-input svg {
+
+     height:100%;
+    width:100%;
+    color:#26ff00;
+  
+    
+
+}
+
+
+
+.account-input button:hover {
+
+    transform:scale(1.05);
+    border:#2bff00;
+}
+
+
+.wish-input1 {
+
+    position: relative;
+    left:615px;
+    max-width: 130px;
+    top:25px;
+    border-radius:8px;
+}
+
+.wish-input1 button {
+
+     
+    width:40px;
+    height:35px;
+       background-color: transparent;
+           border-radius:8px;
+           border-color: #03e116;
+           position: relative;
+         
+}
+
+.wish-input1 span {
+
+    
+    position:relative;
+    top:5px;
+    font-size:15px;
+      font-weight: bold;
+      color:#00b140;
+      position: relative;
+      right:15px;
+
+}
+
+.wish-input1 svg {
+
+     height:100%;
+    width:100%;
+    color:#26ff00;
+    
+
+}
+
+.wish-input1 button:hover {
+
+    transform:scale(1.05);
+    border:#2bff00;
+}
+
+
+
+.cart-input1 {
+
+  
+     position: relative;
+    left:742px;
+    max-width: 130px;
+    top:8px;
+    border-radius:8px;
+  
+  
+    
+
+
+}
+
+.cart-input1 button {
+
+  
+    width:40px;
+    height:35px;
+       background-color: transparent;
+           border-radius:8px;
+           border-color: #03e116;
+}
+
+.number-check {
+
+    background-color: rgb(6, 138, 11);
+    border-radius: 20px;
+    
+    max-width: 18px;
+    max-height:20px;
+    font-size: 12px;
+   padding-left: 5px;
+   position: relative;
+   left:43px;
+   top:10px;
+}
+
+
+
+.cart-input1 span {
+
+    position:relative;
+    top:5px;
+    font-size:15px;
+      font-weight: bold;
+      color:#26ff00;
+   
+}
+
+.cart-input1 svg {
+
+    height:100%;
+    width:100%;
+    color:#26ff00;
+}
+
+.cart-input1 button:hover {
+
+    transform:scale(1.05);
+    border:#2bff00;
+}
+
+
+
+nav a:hover {
+    color:#76b900;
+   
+}
+/* ===== Heading & TEXT ===== */
+
+h1 {
+    color:#56a930;
+    margin: 40px;
+
+    
+     padding-left: 15px;
+     
+  
+    
+}
+
+p{
+    
+    line-height: 1.6;
+}
+
+/*_________ STORE CATEGORIES (ADD BELOW HERE) _________ */
+
+.store-categories {
+    display: flex;
+    justify-content: start;
+     gap:0;
+    padding-top: 40px;
+    padding-left: -10px;
+    
+     margin-bottom: 0;
+
+    
+   
+}
+.store-categories label {
+
+    position: relative;
+    bottom: 10px;
+    right:25px;
+    max-height: 60px;
+    max-width: 360px;
+    font-size:25px;
+    font-weight: bold;
+
+   
+   
+}
+
+.category {
+
+color:#76b900;
+font-weight: 600;
+border: 1px solid  #76b900;
+position: relative;
+right:135px;
+
+}
+
+.in-category  {
+ 
+   gap:30px;
+   position: relative;
+   bottom: 4px;
+   left:250px;
+
+   
+}
+
+.in-category2 {
+
+    position: relative;
+    left:340px;
+   gap:30px;
+}  
+
+.in-category3  {
+    gap:30px;
+    position: relative;
+    left:450px;
+    
+}
+
+.category img {
+
+  max-width: 400px;
+
+}
+
+.category :hover{
+
+   transform: scale(1.02);
+}
+
+/* Search Bar */
+
+.search-bar {
+
+    max-width: 590px;
+    width: auto;
+ 
+    position: relative;
+    right:690px;
+    top:25px;
+    height: 40px;
+    align-items: center;
+ 
+    
+ 
+
+}
+
+.search-bar input {
+
+    width:500px;
+    height:40px;
+    border-radius: 6px;
+    font-size:medium;
+    position: relative;
+    right:30px;
+    bottom: 8px;
+    padding-left: 5px;
+
+   
+}
+
+.search-bar button {
+
+    height:40px;
+    width:60px;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius:5px ;
+    font-size:medium;
+    background: #00b140;
+    position: relative;
+    right:45px;
+    top:1px;
+    border-left: #ffffff;
+   
+  
+ 
+
+    
+}
+
+.search-bar button:hover {
+
+    transform:scale(1.05);
+}
+
+.search-bar button svg {
+
+ 
+    max-width: 152px;
+    width:100%;
+    height: 27px;
+
+}
+
+
+/* ======= search bar login =====*/ 
+
+.search-bar1 {
+
+    max-width: 590px;
+    width: auto;
+ 
+    position: relative;
+    right:520px;
+    top:25px;
+    height: 40px;
+    align-items: center;
+ 
+    
+ 
+
+}
+
+.search-bar1 input {
+
+    width:500px;
+    height:40px;
+    border-radius: 6px;
+    font-size:medium;
+    position: relative;
+    right:30px;
+    bottom: 8px;
+    padding-left: 5px;
+
+   
+}
+
+.search-bar1 button {
+
+    height:40px;
+    width:60px;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius:5px ;
+    font-size:medium;
+    background: #00b140;
+    position: relative;
+    right:45px;
+    top:1px;
+    border-left: #ffffff;
+   
+  
+ 
+
+    
+}
+
+.search-bar1 button:hover {
+
+    transform:scale(1.05);
+}
+
+.search-bar1 button svg {
+
+ 
+    max-width: 152px;
+    width:100%;
+    height: 27px;
+
+}
+
+/* ======= Seller tags ===== */
+
+.seller-best {
+
+    background:#133de1;
+    max-width: 100px;
+    border-radius: 3px;
+    position:relative;
+    right:10px;
+    bottom:15px;
+    font-weight: bold;
+    font-size: 19px;
+    height:20px;
+    align-items: center;
+
+
+}
+
+/* ===== OUT OF STOCK TAG ===== */
+
+.out-of-stock {
+
+   background: rgb(255, 32, 32);
+   max-width:127px;
+   position: relative;
+   right:18px;
+   bottom:12px;
+   font-size:15px;
+   border-radius: 3px;
+   font-weight: bold;
+}
+
+/* ===== Store Tags for PC gaming === */
+
+.gaming-tag {
+    padding-bottom: 5px;
+    position: relative;
+  left: 50px;
+  display: flex;
+  justify-content:flex-start;
+   max-width: 300px;
+  
+    max-height: 59px;
+
+
+  
+}
+
+.gaming-tag h1 {
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 30px;
+}
+
+
+
+/* =================================
+    PRODUCT CARDS (STORE PAGE)
+   ================================= */
+
+   .products {
+    display:flex;
+    gap: 30px;
+    padding: 30px;
+    padding-left: 85px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width:100%;
+   justify-content: center;
+  
+  
+
+   }
+
+  
+
+
+
+
+   .product {
+    background: #0f1621;
+    border: 1px solid #1f2937;
+    padding: 20px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all 0.3s ease;
+  
+   }
+
+   .product img {
+     width: 100%;
+     height: 200px;
+     object-fit: contain;
+     display: block;
+     margin-bottom: 15px;
+   }
+
+   .product h3 {
+    color: #ffffff;
+    margin: 15px 0 10px;
+   
+   }
+
+   .product p {
+    color: #cbd5e1;
+   }
+
+   /* ===== product card link ===== */
+
+   .product-link {
+
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+   }
+
+   /* ===== Product page ======= */
+
+      .product-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.973);
+  border-radius: 10px;
+  position: relative;
+  top:30px;
+
+}
+
+.product-container p {
+
+    font-weight: bold;
+    font-size:19px;
+}
+
+.product-container h2 {
+
+    position: relative;
+    left:20px;
+    top:4px;
+    color:#000000;
+    font-size: 30px;
+
+}
+
+.product-title {
+  
+  font-weight: none ;
+  line-height: 2.35;
+  margin-bottom: 16px;
+  color: #0c0c0c;
+  position: relative;
+
+  max-width:580px;
+  padding-right: 16px;
+  height:200px;
+  position:relative;
+  top:80px;
+  left:670px;
+  
+}
+
+
+.price-section {
+  margin-bottom: 20px;
+  position: relative;
+  bottom:180px;
+  max-width:300px;
+}
+
+.current-price {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #34a326;          /* bright green used on many tech shops */
+  margin-bottom: 4px;
+}
+
+.vat-text {
+  font-size: 0.95rem;
+  color: #130a0a;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.installment-text {
+  font-size: 1rem;
+  color: #31be24;
+  font-weight: bold;
+}
+
+.stock-status {
+  display: inline-block;
+  background: #15ca21;
+  color: rgb(5, 5, 5);
+  font-weight: bold;
+  font-size: 19px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin: 16px 0;
+  position: relative;
+  bottom:200px;
+
+}
+
+.stuck-amount {
+
+   
+    max-width:70px;
+    height:60px;
+    border-radius: 8px;
+    position: relative;
+    bottom:193px;
+
+}
+
+.stuck-amount select {
+
+    width:70px;
+    height:50px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.add-to-cart-button {
+  background: #00c853;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 16px;
+  width: 500px;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin: 20px 0;
+  position:relative;
+  left: 76px;
+  bottom:274px;
+}
+
+.add-to-cart-button:hover {
+  background: #00b140;
+}
+
+.warranty-section {
+  margin: 24px 0;
+  padding: 16px 0;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #2a2a2a;
+  position: relative;
+  left:680px;
+  bottom:860px;
+  max-width: 340px;
+}
+
+.warranty-label {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #000000;
+}
+
+.warranty-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.warranty-option {
+  display: flex;
+  align-items: center;
+  font-size: 0.98rem;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.warranty-option input[type="radio"] {
+  margin-right: 12px;
+  accent-color: #00e676;
+  transform: scale(1.15);
+}
+
+.warranty-option span.price {
+  margin-left: auto;
+  color: #ff0000;
+  font-weight: 500;
+}
+
+.delivery-row {
+  font-size: 0.96rem;
+  color:  #40921a;
+  margin: 20px 0;
+  position:relative;
+  left:670px;
+  bottom:860px;
+  max-width: 310px;
+  font-weight: bold;
+}
+
+.delivery-row .change-link {
+  color: #2bff00;
+  cursor: pointer;
+  text-decoration: underline;
+  background:#1b1e24;
+  border-radius: 6px;
+  font-weight: bold ;
+  font-size: small;
+}
+
+.key-specs-section {
+  margin-top: 28px;
+  position: relative;
+  left:690px;
+  bottom:860px;
+  max-width:350px;
+  border-color: green ;
+
+  
+}
+
+.key-specs-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: #21941d;
+}
+
+.key-specs-list {
+  list-style: square;
+  color:#00ff5e;
+}
+
+.key-specs-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #0c2b00;
+  font-size: 0.98rem;
+}
+
+.key-specs-list li:last-child {
+  border-bottom: none;
+}
+
+.key-specs-list li strong {
+  display: inline-block;
+  min-width: 160px;
+  color: #18a737;
+  font-weight: bold;
+}
+
+/*====== image in product page ======*/
+
+.image-cast {
+
+    position: relative;
+    left:50px;
+    width:500px;
+    bottom:200px;
+
+
+}
+
+   /* ===== NVIDIA TAG ===== */
+   .fulfilled {
+    color:#76b900;
+    font-weight: 600;
+    font-size:1.1em;
+    margin-top: 10px;
+   }
+
+   /* HOVOR EFFECTS */
+
+   .product:hover {
+    background: rgba(118, 185, 0, 0.05);
+    border-color:  #76b900;
+    box-shadow: 0 0 25px rgba(0, 255, 0, 0.35);
+    transform: scale(1.05);
+   }
+
+  
+
+   /* ====== HOME HERO ====== */
+   .home-hero {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    padding: 0 40px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   }
+
+   .NVI-logo {
+    color:#76b900;
+    font-size: 25px;
+   }
+
+   /*===== fulfilled NVIDIA tag =====*/
+
+   .tag-Fulfilled {
+
+    background-color: #15ca21;
+    max-width: 150px;
+    border-radius: 8px;
+    font-size: small;
+   }
+
+   .product-card-price {
+
+    font-size: 22px;
+    position: relative;
+    right:50px;
+    font-weight: bold;
+   }
+
+   .product-card-price p3 {
+
+     
+     color:red;
+   }
+
+   .product-card-price p6 {
+
+    text-decoration: line-through;
+    font-size:16px;
+    position: relative;
+    right:20px;
+   }
+
+   .discount-tag {
+
+    background-color: rgb(0, 16, 241);
+    max-width: 70px;
+    border-radius: 6px;
+    
+   }
+   .discount-tag p{
+
+    color:#03e116;
+    font-weight:bold;
+   }
+
+   .delivery-date {
+
+    position: relative;
+    right:10px;
+    
+   }
+   .delivery-date p2 {
+
+    color:#00ff5e;
+    padding-left:4px;
+    font-weight: bold;
+   }
+
+   .free-store {
+
+     position: relative;
+     right:60px;
+   }
+
+   .free-store p2 {
+    
+    font-weight: bold;
+    padding-right: 4px;
+    font-size: 16px;
+   }
+   
+   /* ====== Support Page ====== */
+
+    .support-hero{
+        background-image: url("support3.png");
+        background-size:  cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        padding: 80px 60px;
+        min-height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        color: white;
+
+    }
+
+    /* container inside support hero */
+    .support-content {
+        
+        text-align: center;
+        max-width: 900px;
+        width: 100%;
+        font-size:18px;
+        height: 325px;
+
+    }
+
+    /* support columns layout */
+    .support-columns {
+
+        display: flex;
+        justify-content: space-between;
+        gap: 80px;
+        margin-top: 30px;
+
+    }
+
+    /* headings */
+    .support-content h3 {
+
+        color : #fefffc;
+        margin-bottom: 20px;
+        position: relative;
+        top: 10px;
+       
+
+    }
+
+    .support-content h2 {
+
+        color: white;
+        margin-bottom: 10px;
+        font-size: 28px;
+        position: relative;
+        left:10px;
+
+    }
+    /* list styling */
+    .support-content ul {
+
+        list-style: none;
+        padding: 50px;
+
+    }
+
+    .support-box li {
+
+        margin-bottom: 9px;
+        color:#e5e7eb;
+
+    }
+    .support-1 {
+
+        color: #e5e7eb;
+        text-decoration: none;
+        font-weight: 600;
+        font-size:20px;
+        height: 40px;
+     position:relative ;
+        right: 200px;
+        
+
+    }
+
+     .support-2 {
+
+         color: #e5e7eb;
+        text-decoration: none;
+        font-weight: 600;
+        font-size:18;
+        height: 10px;
+     position: relative ;
+        right: 200px;
+     }
+
+     .support-4 {
+
+        font-weight: 200px;
+        height: 10px;
+        color:#76b900;
+        font-size: 20px;
+        position: relative ;
+        right: 200px;
+        padding: 50px;
+     }
+
+     .support-5 {
+
+        font-size:20px;
+        height: 40px;
+        position: relative ;
+        left: 250px;
+       bottom: 150px;
+     }
+
+     .support-6 {
+
+        font-size:18;
+        font-weight: 600;
+        height:10px;
+        position: relative ;
+        left:250px;
+        bottom:148px;
+     }
+
+     .support-7 {
+
+         font-weight: 200px;
+        height: 0px;
+        color:#76b900;
+        font-size: 20px;
+        position: relative ;
+        left: 250px;
+        padding: 50px;
+        bottom: 145px;
+     }
+
+     /*============Links for the Site ===========*/
+     a {
+  color: #5fb645;        /* normal */
+  text-decoration: none; /* removes underline (optional) */
+}
+
+a:hover {
+  color: #ff0000;        /* when mouse is over */
+}
+
+
+a:active {
+  color: #ff6600;        /* while clicking */
+}
+
+/*=============== ABOUT PAGE ============*/
+
+.about-intro {
+
+  background-image: url("About.png");
+        background-size:  cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        padding: 140px 80px ;
+        max-height: 715px ;
+        width:  100%;
+        position: relative;
+        top:15px;
+         
+
+    
+        justify-content: center;
+        color: white;
+        padding-bottom: 400px;
+
+     
+
+}
+
+
+.header-1 {
+
+    font-size:28px;
+    color:#fefffc;
+    position: relative;
+    bottom:150px;
+    
+
+}
+
+.header-2 {
+
+    font-size:25px;
+    padding:40px;
+    height:0px;
+    position:relative;
+    right:28px;
+    bottom:200px;
+    
+
+}
+
+.header-3 {
+
+    font-size:18px;
+    padding:40px;
+    position: relative;
+    right:auto;
+    bottom:460px;
+    
+
+}
+
+.header3_1 {
+
+  position: relative;
+  bottom:700px;
+  right:auto;
+  font-size:medium;
+}
+
+
+
+
+
+
+.Pro-ad {
+
+    position:relative;
+    bottom:560px;
+    right:0px;
+}
+
+.Pro-ad  h2{
+
+    position: relative;
+    bottom:0px;
+    left:350px;
+    max-width: 300px;
+}
+
+.PG-1 {
+
+    font-size:20px;
+    padding:10px;
+    position: relative;
+    bottom:180px;
+  
+
+}
+
+.advert-about {
+
+    position: relative;
+    left:400px;
+     text-align: center;
+
+    max-width:1000px;
+    max-height: 100px;
+
+    position: relative;
+    top:0px;
+}
+
+.super-1 {
+
+    font-size:18px;
+    max-width: 250px;
+    border-radius:8px;
+    padding:10px;
+    position: relative;
+    right:0px;
+    bottom:172px;
+    background: linear-gradient(gray ,black,black,black );
+     
+}
+
+.super-1 h3 {
+
+    position: relative;
+    bottom:58px;
+    left:30px;
+}
+
+.super-2 {
+
+    font-size:18px;
+    padding:10px;
+    position: relative;
+    left:330px;
+    bottom:278px;
+    background: linear-gradient(gray ,black,black,black );
+    max-width: 250px;
+    border-radius:8px;
+}
+
+.super-2 h3 {
+
+    position:relative;
+    bottom: 60px;
+    left:60px;
+}
+
+
+
+
+.super-3 {
+
+    font-size:18px;
+  
+    position: relative;
+    left:660px;
+    bottom:380px;
+    max-width: 250px;
+    background: linear-gradient(gray ,black,black,black );
+    border-radius: 8px;
+    max-height: 300px;
+    height:100px;
+    padding-left:20px;
+
+}
+
+.super-3 h3 {
+
+    position:relative;
+    bottom: 40px;
+    left:60px;
+
+}
+
+
+
+    
+.image-1 {
+    
+ 
+    position: relative;
+    left: 388px;
+    bottom: 300px;
+  height: 240px;
+     max-width: 660px;
+     width: 450px;
+}
+
+.image-2 {
+
+     position: relative;
+   left:775px;
+    bottom: 740px;
+  height: 260px;
+     max-width: 660px;
+     width: 440px;
+   
+    
+}
+
+.image-2 img {
+
+    width:450px;
+}
+
+
+
+
+.header-4 {
+
+    font-size:35px;
+    padding:50px;
+    position: relative;
+    left:70px;
+    bottom:250px;
+     max-width:560px;
+    
+}
+
+
+
+
+
+/*============ Login Page ==========*/
+
+
+
+.nvi-page {
+
+    text-align: center;
+}
+
+.nvi-page-2 {
+
+    position: relative;
+    bottom:200px;
+       left:60px;
+}
+
+
+
+
+.login-form {
+
+     display:flex;
+    flex-direction: column;
+    justify-content:center;
+     align-items: center;
+    background-color:  transparent;
+    padding:8px  18px;
+    margin: 12px;
+    max-width: 400px;
+    position: relative;
+    left:700px;
+    background-color:#1d2029;
+      box-shadow: 0px 1px 1px 5px #8bff5e;
+    border-radius: 8px;
+    height:65vh;
+    padding-bottom: 130px;
+}
+
+.login-form input {
+
+    padding:15px;
+    margin:12px;
+    border: 2px solid #76b900;
+    border-radius: 8px;
+    width: 300px;
+    max-width:399px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.login-form input:focus {
+
+    border-color: rgb(0, 217, 255);
+    outline:#00bfff;
+    transform:scale(1.05);
+}
+
+.login-form button {
+
+    padding:12;
+    max-width: 360px;
+    width:300px;
+    border-radius: 8px;
+    background: #3cff00;
+    font-size:18px;
+    font-weight: bold;
+    position: relative;
+   top:30px;
+   left:10;
+}
+
+.login-form button:hover  {
+
+    transform:scale(1.05);
+    background-color:#00bfff;
+    cursor: pointer;
+  
+
+}
+
+.login-form button:focus {
+
+    background-color: gold;
+}
+
+.login-form p {
+
+    color:#e4eaf1;
+    font-weight: bold;
+    position: relative;
+    top:50;
+    font-size: larger;
+
+}
+
+.login-form h2 {
+
+    color:#f7faff;
+   
+
+   
+}
+
+.login-form h1 {
+
+    color: #76b900;
+    position: relative;
+      top:10px;
+}
+
+.form-field   {
+    color:#35383d;
+    position: relative;
+    font-weight: bold;
+     flex-direction: column;
+     width: 310px;
+
+
+}
+
+.form-field  label{
+
+ display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #f0ecec;
+
+  padding-right:30px;
+  width: 180px;
+  position: relative;
+  left:20px;
+  top:10px
+}
+
+
+
+.login-checkbox input  {
+
+    position: relative;
+    right: 180px;
+    width: 32px;
+    height: 18px;
+    background-color: #ff0000;
+  
+}
+.login-checkbox label {
+
+    
+  position: relative;
+  right:30px;
+  bottom: 5px;
+  font-weight: bold;
+  color: rgb(241, 238, 238);
+   
+}
+
+.lost {
+
+    position: relative;
+    left:120px;
+    bottom: 35px;
+  
+  
+    
+
+}
+
+.lost a {
+   font-size: 16px;
+   font-weight: 900;
+ 
+   
+
+
+}
+
+/* ====== sign up page =======*/
+
+.login-form2 {
+
+     display:flex;
+    flex-direction: column;
+    justify-content:center;
+     align-items: center;
+    background-color:  transparent;
+    padding:8px  18px;
+    margin: 12px;
+    max-width: 450px;
+    position: relative;
+    bottom: 40px;
+    left:700px;
+    background-color:#1d2029;
+    box-shadow: 0px 1px 1px 5px #8bff5e;
+    
+    border-radius: 8px;
+    height:85vh;
+    padding-bottom: 130px;
+}
+
+.login-form2 input {
+
+    padding:15px;
+    margin:12px;
+    border: 2px solid #76b900;
+    border-radius: 8px;
+    width: 300px;
+    max-width:399px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.login-form2 input:focus {
+
+    border-color: rgb(0, 217, 255);
+    outline:#00bfff;
+    transform:scale(1.05);
+}
+
+.login-form2 button {
+
+    padding:12;
+    max-width: 360px;
+    width:300px;
+    border-radius: 8px;
+    background: #3cff00;
+    font-size:18px;
+    font-weight: bold;
+    position: relative;
+   top:30px;
+   left:10;
+}
+
+.login-form2 button:hover  {
+
+    transform:scale(1.05);
+    background-color:#00bfff;
+    cursor: pointer;
+  
+
+}
+
+.login-form2 button:focus {
+
+    background-color: gold;
+}
+
+.login-form2 p {
+
+    color:#e6e6e6;
+    font-weight: bold;
+    position: relative;
+    top:50;
+    font-size: larger;
+
+}
+
+.login-form2 h2 {
+
+    color:#dbdee6;
+
+}
+
+.login-form2 h1 {
+
+    color: #76b900;
+}
+
+.form-field2   {
+    color:#bec1c7;
+    position: relative;
+    font-weight: bold;
+     flex-direction: column;
+     width: 310px;
+
+
+}
+
+.form-field2  label{
+
+ display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #e7e1e1;
+
+  padding-right:30px;
+  width: 180px;
+  position: relative;
+  left:20px;
+  top:10px
+}
+
+
+
+
+
+     
+
+    
+   
+
+
+
+ 
